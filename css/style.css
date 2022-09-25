@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url("../fonts/Larsseit-Medium.woff2") format('woff2'),
+		url("../fonts/Larsseit-Medium.woff") format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url("../fonts/Larsseit-Bold.woff2") format('woff2'),
+		url("../fonts/Larsseit-Bold.woff") format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url("../fonts/Larsseit.woff2") format('woff2'),
+		url("../fonts/Larsseit.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: 'Larsseit';
+	font-weight: normal;
+}
+
+a {
+	color: green;
+}
+
+.text {
+	color: rgb(212, 182, 7);
+}
+
+/* selektor po ID */
+#blue {
+	color: blue;
+}
+
+div.text {
+	color: rgb(7, 223, 79);
+}
+
+.text.lesson {
+	color: rgb(238, 234, 3);
+}
+
+div>#red {
+	color: red;
+}
+
+p#red {
+	color: rgb(255, 0, 255);
+}
+
+.text .list {
+	color: rgb(47, 110, 6);
+	font-family: 'Roboto';
+	font-size: 120%;
+}
+
+div#blok {
+	color: rgb(136, 6, 6);
+}
+
+.text .lesson {
+	color: rgb(235, 142, 4);
+}
+
+.text p {
+	color: rgb(204, 77, 4);
+}
+
+div span {
+	color: rgb(24, 5, 5);
+}
+
+.text,
+.lesson {
+	color: rgb(105, 7, 145);
+}
+
+header {
+	font-family: 'Lato';
+	font-size: 250%;
+	font-weight: 500;
+}
+
+footer {
+	font-family: 'Roboto';
+	font-size: 180%;
+}
+
+body .titla {
+	font-family: 'Larsseit';
+	font-weight: bold;
+	font-size: 280%;
+}
